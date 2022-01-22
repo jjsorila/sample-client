@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const host = process.env.NODE_ENV === 'development' ? "http://localhost:5000" : "https://18.212.177.98:5000"
+const host = process.env.NODE_ENV === 'development' ? "http://localhost:5000" : "http://18.212.177.98:5000"
 
 const App = () => {
   const [name, setName] = useState('World')
